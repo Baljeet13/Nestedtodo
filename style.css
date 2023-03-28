@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    background-image: url(what.jpeg);
+    
+}
+.input:hover{
+    background-color: rgb(207, 235, 250);
+}
+
+.section-category{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-category{
+    
+    
+    margin-left: 250px;
+    min-height: 5vh;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 1rem;
+}
+.form-category input[type ="text"]{
+    box-shadow: 0 0 10px 7px  #3886be;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 60%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* .form-category input[type="submit"]{
+    font-size: larger;
+    box-shadow: 4px 4px green;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 10%;
+    background-color:  rgb(49 135 80);;
+    color: white;
+    font-weight: bold;
+} */
+.mainul{
+    
+    gap: 10px;
+    text-align: left;
+    font-size:1.2rem;
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.category-ul li{
+    padding: 0.7rem;
+    font-weight: bold;
+    margin-top:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 button{
+    
+    border-radius: 8px;
+    padding:0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn2 button{
+    
+    border-radius: 8px;
+    padding:0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+li{
+    box-shadow: 0 0 10px 4px rgb(61, 158, 214);
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 40px;
+    border: 2px solid rgb(54, 122, 212);
+    border-radius: 10px;
+    
+}
+
+li li{
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px solid; 
+}
+li li li{
+    border: 2px solid rgb(49, 156, 198);
+}
+.text-category{
+   
+    border-radius: 9px;
+   padding: 7px 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.btn1{
+    margin-top: 10px;
+    margin-left: 14px;
+}
+.btn2{
+    margin-top: 9px;
+}
+@keyframes popup{
+    from{transform:scale(0);}
+    to{transform: scale(1);}
+}
+.pop{
+   
+    animation: popup 0.5s;
+   
+}
+
